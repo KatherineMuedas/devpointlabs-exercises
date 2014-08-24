@@ -7,15 +7,6 @@
 
 # - Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
-#objetive: Use Ruby to build Conway’s Game of Life
-
-#First define what characters represent
-#iniatilaze method to create a grip
-#Make a grid
-#set up the grid with deads and alives cells.
-#copy the grid to a new grid (to have a backup to dont forget how many deads and alives are)
-
-
 class Game
 
   def initialize
@@ -130,44 +121,4 @@ class Game
 end
 
 game = Game.new
-
-
-
-
-
-#display the grid to the user
-#Go to each of the cells 
-   #and when we find an alive cell 
-    
-    #Count how many alives neighbors it has 
-     
-      #puts "alive cell"
-      #And update the status in the new grid 
-# after finishing going throught the grid and updating the status of the new grid 
-# copy the change grid  to the orignal grid 
-#check if the game is over with a method (if all they are dead)
-#display how many deads and alive
-#display how many cycles pass 
-#when cycle is done starts again 
-
-
-
-
-#each_with_index 
-#multidimendional arrays 
-#sending parameters to a method 
-#Returning a value from the method 
-
-
-
-
-    
-
    
-
-
-
-
-
-
-    
